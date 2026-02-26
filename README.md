@@ -15,6 +15,8 @@ mvn package
 ```bash
 mvn exec:java -Dexec.mainClass="com.library.LibraryApp"
 ```
+or
+
 ```bash
 test_cli.bat
 ```
