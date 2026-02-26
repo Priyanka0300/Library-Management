@@ -15,6 +15,9 @@ mvn package
 ```bash
 mvn exec:java -Dexec.mainClass="com.library.LibraryApp"
 ```
+```bash
+test_cli.bat
+```
 
 Features: add/list/borrow/return books with JSON persistence (`library.json`).
 "# Library-Management" 
