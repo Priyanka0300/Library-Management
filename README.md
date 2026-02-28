@@ -5,19 +5,29 @@ A command-line Library Management System built using Java 17, Maven, and Gson to
 🚀 Features
 
 Add new books
+
 List all books
+
 Borrow a book
+
 Return a book
+
 Persistent storage using JSON
+
 Auto-increment book IDs
+
 Data loads automatically on startup
 
 🛠️ Tech Stack
 
 Java 17
+
 Maven
+
 Gson (JSON serialization/deserialization)
+
 File I/O
+
 Collections Framework (ArrayList)
 
 Project Structure
@@ -46,7 +56,9 @@ Book (Data Model)
 library.json (Persistence using Gson)
 ```
 💾 Persistence Strategy
+
 The application uses Gson to serialize the entire Library object into a JSON file.
+
 Example library.json:
 ```json
 {
@@ -76,6 +88,7 @@ cd library-management-cli
 mvn clean package
 ```
 3️⃣ Run the application
+
 Option A – Using Maven:
 ```bash
 mvn exec:java -Dexec.mainClass="com.library.LibraryApp"
