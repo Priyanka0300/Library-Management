@@ -1,5 +1,5 @@
-**Library Management System (CLI-Based)
-**
+# 📚 **LIBRARY MANAGEMENT SYSTEM (CLI-BASED)**
+
 A command-line Library Management System built using Java 17, Maven, and Gson to demonstrate core Java concepts including OOP, collections, file handling, and JSON persistence.
 
 🚀 Features
